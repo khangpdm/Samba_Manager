@@ -1,4 +1,3 @@
-[HuongDanSuDung.md](https://github.com/user-attachments/files/22709921/HuongDanSuDung.md)
 # Hướng dẫn sử dụng script Samba + DNS
 
 Hướng dẫn sử dụng script Samba + DNS  
