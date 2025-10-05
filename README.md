@@ -49,7 +49,7 @@ Ví dụ cấu hình DNS:
 1. Chạy [9], nhập domain `company.local`, IP `192.168.2.37`.  
 2. Trên Windows, đặt DNS = 192.168.2.37.  
 3. Kiểm tra bằng nslookup www.company.local.  
-5) Kiểm tra & xác th ực 
+5) Kiểm tra & xác thực 
 - Samba:  
  
 systemctl is -active smb  
