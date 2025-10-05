@@ -9,7 +9,7 @@ Hướng dẫn sử dụng script Samba + DNS
 - SELinux bật/enforcing vẫn dùng được (script đã gán context chia sẻ Samba).  
 - tắt Firewalld ở máy ảo và máy thật 
  
-Lưu file & c ấp quy ền: 
+Lưu file & cấp quyền: 
  
 sudo mkdir -p /opt/scripts  
 sudo vi /opt/scripts/samba_manager.sh  # dán nội dung script của bạn 
