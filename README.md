@@ -2,11 +2,11 @@
 # Hướng dẫn sử dụng script Samba + DNS
 
 Hướng dẫn sử dụng script Samba + DNS  
-1) Yêu cầu hệ thống & chu ẩn bị 
+1) Yêu cầu hệ thống & chuẩn bị 
 - Hệ điều hành: CentOS Stream 8/9 . 
-- Quyền: chạy bằng root ho ặc sudo.  
+- Quyền: chạy bằng root hoặc sudo.  
 - Kết nối mạng để cài gói từ repo.  
-- SELinux b ật/enforcing vẫn dùng được (script đã gán context chia sẻ Samba).  
+- SELinux bật/enforcing vẫn dùng được (script đã gán context chia sẻ Samba).  
 - tắt Firewalld ở máy ảo và máy thật 
  
 Lưu file & c ấp quy ền: 
@@ -63,7 +63,9 @@ dig @127.0.0.1 www.domain.local A +short
 dig @127.0.0.1 -x <ip> +short  
  
 *Lưu ý nếu bị lỗi như này thì : 
- 
+
+ ![Mô tả ảnh](./images/samba-demo.png)
+  
 Đây là lỗi do window không cho phép đăng nhập nhiều tài khoản trên cùng môt m áy. 
 Mở command propt và nh ập lệnh: 
 net use * /delete /y  
